@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "lms-frontend-app",
   "private": true,
   "type": "module",
   "scripts": {
@@ -16,8 +16,10 @@
     "nuxt-primevue": "^0.2.2"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7",
+    "primevue": "^3.44.0",
     "vue": "^3.3.7",
-    "vue-router": "^4.2.5",
-    "primevue": "^3.44.0"
+    "vue-router": "^4.2.5"
   }
 }

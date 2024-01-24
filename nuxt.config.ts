@@ -1,7 +1,11 @@
-import * as path from 'path';
+// import * as path from 'path';
 
 export default defineNuxtConfig({
-    modules: ['@nuxtjs/tailwindcss', "nuxt-primevue"],
+    modules: [
+        '@nuxtjs/tailwindcss', 
+        'nuxt-primevue', 
+        '@pinia/nuxt'
+    ],
     primevue: {
         options: { unstyled: true },
         // importPT: { as: 'Lara', from: path.resolve(__dirname, './presets/lara/') },
