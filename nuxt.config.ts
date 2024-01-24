@@ -5,14 +5,13 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss', 
         'nuxt-primevue', 
         '@pinia/nuxt',
-
         ['@nuxtjs/eslint-module', { /* module options */ }]
     ],
     primevue: {
         options: { unstyled: true },
-        // importPT: { as: 'Lara', from: path.resolve(__dirname, './presets/lara/') },
 
         // ref: https://github.com/primefaces/primevue-nuxt-module/issues/6#issuecomment-1870464180
+        // importPT: { as: 'Lara', from: path.resolve(__dirname, './presets/lara/') },
         // importPT: { as: "Lara", from: "~/presets/lara" },
         importPT: { as: "Lara", from: "@/presets/lara" }, 
 
