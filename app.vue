@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="bg-surface-100 dark:bg-surface-900 flex items-center justify-center min-h-screen p-10">
+  <!-- <div class="bg-surface-100 dark:bg-surface-900 flex items-center justify-center min-h-screen p-10">
 
     <section class="
         bg-white
@@ -45,7 +45,8 @@
         </p>
       </Panel>
     </section>
-  </div>
+  </div> -->
+  <NuxtPage />
 </template>
 
 <style>
