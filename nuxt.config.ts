@@ -5,7 +5,11 @@ export default defineNuxtConfig({
     primevue: {
         options: { unstyled: true },
         // importPT: { as: 'Lara', from: path.resolve(__dirname, './presets/lara/') },
-        importPT: { as: "Lara", from: "~/presets/lara" },
+
+        // ref: https://github.com/primefaces/primevue-nuxt-module/issues/6#issuecomment-1870464180
+        // importPT: { as: "Lara", from: "~/presets/lara" },
+        importPT: { as: "Lara", from: "@/presets/lara" }, 
+
         components: {
             exclude: ["Editor", "Chart"]
         }
